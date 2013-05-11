@@ -6,7 +6,7 @@ VIM is my favorite text editor. In this repository I maintain the configuration 
 Installation
 ------------
 
-Copy the files and directories in this repository to your `$HOME` directory (Linux) or `%UserProfile%` directory (Windows).
+Run `git clone https://github.com/ymx/vim-config.git` and copy all files and directories from the repository to your `$HOME` directory (Linux) or `%UserProfile%` directory (Windows).
 
 After starting VIM for the first time, run the following command to install the configured plugins:
 ```vim
