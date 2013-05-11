@@ -5,5 +5,5 @@ VIM is my favorite text editor. In this repository I maintain the configuration 
 
 After starting VIM for the first time, run the following command to install the configured plugins:
 ```vim
-:BundelInstall
+:BundleInstall
 ```
