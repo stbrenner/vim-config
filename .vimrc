@@ -7,14 +7,16 @@ call vundle#rc()
 " Bundles
 Bundle 'gmarik/vundle'
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/syntastic'
-Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'kien/ctrlp.vim'
 Bundle 'othree/html5.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'bufexplorer.zip'
-Bundle 'scrooloose/nerdcommenter'
+Bundle 'pangloss/vim-javascript'
+Bundle 'dbext.vim'
+Bundle 'Lokaltog/vim-powerline'
 
 " Tab behavior
 set expandtab
