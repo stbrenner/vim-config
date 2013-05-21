@@ -6,9 +6,8 @@ VIM is my favorite text editor. In this repository I maintain the configuration 
 Installation
 ------------
 
-Run `git clone https://github.com/ymx/vim-config.git` and copy all files and directories from the repository to your `$HOME` directory (Linux) or `%UserProfile%` directory (Windows).
+1. Run `git clone https://github.com/ymx/vim-config.git`
 
-After starting VIM for the first time, run the following command to install the configured plugins:
-```vim
-:BundleInstall
-```
+2. Copy `.vim`, `.gvimrc` and `.vimrc` to your `$HOME` directory (Linux) or `%UserProfile%` directory (Windows).
+
+3. After starting VIM for the first time, run the `:BundleInstall` command to install the required plugins.
