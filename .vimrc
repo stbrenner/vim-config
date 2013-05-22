@@ -6,23 +6,24 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Bundles
-Bundle 'gmarik/vundle'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'kien/ctrlp.vim'
-Bundle 'othree/html5.vim'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'bufexplorer.zip'
-Bundle 'pangloss/vim-javascript'
-Bundle 'dbext.vim'
-Bundle 'Lokaltog/powerline'
+Bundle 'gmarik/vundle'                      " Package manager
+Bundle 'vim-ruby/vim-ruby'                  " Ruby support
+Bundle 'scrooloose/syntastic'               " Static code analysis
+Bundle 'scrooloose/nerdtree'                " File browser
+Bundle 'scrooloose/nerdcommenter'           " Shortcut for commenting out
+Bundle 'kien/ctrlp.vim'                     " File search
+Bundle 'othree/html5.vim'                   " HTML5 support
+Bundle 'altercation/vim-colors-solarized'   " Color theme
+Bundle 'bufexplorer.zip'                    " Buffer explorer
+Bundle 'pangloss/vim-javascript'            " JavaScript support
+Bundle 'dbext.vim'                          " Database access
+Bundle 'Lokaltog/powerline'                 " Status bar
 
 " Tab behavior
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+set tabstop=4
 
 " General behavior
 set nowrap                       " Not wrapping lines
@@ -55,7 +56,7 @@ let g:powerline_config_overrides={"common": {"dividers": {"left": {"hard": " ", 
 
 " Windows behavior
 if has("win32")
-  set ffs=dos                         " On Windows assume Cr-Lf line endings
+  set ffs=dos   " On Windows assume Cr-Lf line endings
 endif
 
 " Vundle wrap-up
