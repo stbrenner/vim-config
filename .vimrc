@@ -6,18 +6,18 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Bundles
-Bundle 'gmarik/vundle'                      " Package manager
-Bundle 'vim-ruby/vim-ruby'                  " Ruby support
-Bundle 'scrooloose/syntastic'               " Static code analysis
-Bundle 'scrooloose/nerdtree'                " File browser
-Bundle 'scrooloose/nerdcommenter'           " Shortcut for commenting out
-Bundle 'kien/ctrlp.vim'                     " File search
-Bundle 'othree/html5.vim'                   " HTML5 support
-Bundle 'altercation/vim-colors-solarized'   " Color theme
-Bundle 'bufexplorer.zip'                    " Buffer explorer
-Bundle 'pangloss/vim-javascript'            " JavaScript support
-Bundle 'dbext.vim'                          " Database access
-Bundle 'Lokaltog/powerline'                 " Status bar
+Bundle 'gmarik/vundle'                   
+Bundle 'vim-ruby/vim-ruby'               
+Bundle 'scrooloose/syntastic'            
+Bundle 'scrooloose/nerdtree'             
+Bundle 'scrooloose/nerdcommenter'        
+Bundle 'kien/ctrlp.vim'                  
+Bundle 'othree/html5.vim'                
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'bufexplorer.zip'                 
+Bundle 'pangloss/vim-javascript'         
+Bundle 'dbext.vim'                       
+Bundle 'Lokaltog/powerline'              
 
 " Tab behavior
 set expandtab
