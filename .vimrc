@@ -40,13 +40,10 @@ set makeprg=echo\ Make\ command\ not\ defined\ -\ set\ makeprg=...
 imap <F5> <Esc>:make<Enter>
 nmap <F5> :make<Enter>
 
-" Call commands on start-up
-function! StartUp()                                                                                                                                                                                         
-  if 0 == argc()
-    NERDTree
-  end
-endfunction
-autocmd VimEnter * call StartUp()
+" NERDTree behavior
+autocmd vimenter * if !argc() | NERDTree | endif   " Start NERDTree automatically when no file is specified
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif   " Close vim if the only window left open is a NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
 " CtrlP behavior
 let g:ctrlp_working_path_mode=0   " Start searching from the currend working directory
