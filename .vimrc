@@ -16,8 +16,11 @@ Bundle 'othree/html5.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'bufexplorer.zip'                 
 Bundle 'pangloss/vim-javascript'         
-Bundle 'dbext.vim'                       
 Bundle 'Lokaltog/powerline'              
+Bundle "tomtom/tlib_vim"
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'garbas/vim-snipmate'
+Bundle 'honza/vim-snippets'
 
 " Tab behavior
 set expandtab
