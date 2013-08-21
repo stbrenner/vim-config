@@ -1,26 +1,25 @@
 " Basic Vundle configuration
 set nocompatible   " Disable VI compatibility mode
 filetype off
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim/
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Bundles
-Bundle 'gmarik/vundle'                   
-Bundle 'vim-ruby/vim-ruby'               
-Bundle 'scrooloose/syntastic'            
-Bundle 'scrooloose/nerdtree'             
-Bundle 'scrooloose/nerdcommenter'        
-Bundle 'kien/ctrlp.vim'                  
-Bundle 'othree/html5.vim'                
+Bundle 'gmarik/vundle'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'kien/ctrlp.vim'
+Bundle 'othree/html5.vim'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'bufexplorer.zip'                 
-Bundle 'pangloss/vim-javascript'         
-Bundle 'Lokaltog/powerline'              
+Bundle 'bufexplorer.zip'
+Bundle 'pangloss/vim-javascript'
 Bundle "tomtom/tlib_vim"
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
+Bundle 'bling/vim-airline'
 
 " Tab behavior
 set expandtab
@@ -75,9 +74,6 @@ map <leader>n :NERDTreeToggle<CR>
 
 " CtrlP behavior
 let g:ctrlp_working_path_mode=0   " Start searching from the currend working directory
-
-" Show Powerline without fancy font
-let g:powerline_config_overrides={"common": {"dividers": {"left": {"hard": " ", "soft": "| "}, "right": {"hard": " ", "soft": " |"}}}}
 
 " Windows behavior
 if has("win32")
