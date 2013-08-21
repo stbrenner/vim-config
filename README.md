@@ -1,24 +1,17 @@
 vim-config
 ==========
 
-VIM is my favorite text editor. In this repository I maintain the configuration files to make it work for me on Linux and Windows. I mostly run it in GUI mode (GVim).
-
-Prerequisites
--------------
-
-1. VIM installed  
-   On Windows: [OLE GUI executable](http://www.vim.org/download.php#pc)  
-   On Linux: `$ sudo apt-get install vim-gnome`
-
-2. Python 2.7 installed  
-   On Windows: [Python 2.7.x Windows Installer](http://www.python.org/download/)
+[VIM](http://www.vim.org) only works great with customization. In this repository I maintain the configuration files to make it work for me on Linux and Windows. I mostly run it in GUI mode (GVim).
 
 Installation
 ------------
 
-1. Run `git clone --recursive https://github.com/ymx/vim-config.git`
+1. Install VIM  
+   On Windows: [Self-installing executable](http://www.vim.org/download.php#pc)  
+   On Linux: `$ sudo apt-get install vim-gnome`
 
-2. On Linux: Copy `.vim`, `.gvimrc` and `.vimrc` to your `$HOME` directory  
-   On Windows: Copy `.vim`, `.gvimrc`, `.vimrc` and `windows-only\.config` to your `%UserProfile%` directory
+2. Run `git clone --recursive https://github.com/ymx/vim-config.git`
 
-3. After starting VIM for the first time, run the `:BundleInstall` command to install the required plugins and restart VIM.
+3. Copy `.vim`, `.gvimrc` and `.vimrc` to your `%UserProfile%` (Windows) or `$HOME` (Linux) directory.
+
+4. After starting VIM for the first time, run the `:BundleInstall` command to install the required plugins and restart VIM.
