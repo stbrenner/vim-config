@@ -80,5 +80,8 @@ if has("win32")
   set ffs=dos   " On Windows assume Cr-Lf line endings
 endif
 
+" Vim-airline behavior
+let g:airline#extensions#whitespace#enabled=0   " Disable whitespace checks
+
 " Vundle wrap-up
 filetype plugin indent on
