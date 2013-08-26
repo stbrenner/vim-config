@@ -35,6 +35,7 @@ set backspace=indent,eol,start   " Backspace also via line breaks
 set laststatus=2                 " Always display status bar
 set noshowmode                   " Hide the default mode text
 set encoding=utf-8               " Always use UTF-8 as encoding
+set number                       " Show line numbers
 let mapleader=","                " Comma instead of backslash as <leader>
 
 " Shortcut for turning line wrapping on/off and convenient navigation when lines are wrapped
