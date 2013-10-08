@@ -20,6 +20,7 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
 Bundle 'bling/vim-airline'
+Bundle 'plasticboy/vim-markdown'
 
 " Tab behavior
 set expandtab
