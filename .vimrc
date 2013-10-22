@@ -21,6 +21,7 @@ Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
 Bundle 'bling/vim-airline'
 Bundle 'plasticboy/vim-markdown'
+Bundle 'sukima/xmledit'
 
 " Tab behavior
 set expandtab
