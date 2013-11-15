@@ -86,5 +86,8 @@ endif
 " Vim-airline behavior
 let g:airline#extensions#whitespace#enabled=0   " Disable whitespace checks
 
+" File type specific behavior
+autocmd FileType mkd setlocal shiftwidth=4 softtabstop=4
+
 " Vundle wrap-up
 filetype plugin indent on
