@@ -81,6 +81,9 @@ let g:ctrlp_working_path_mode=0   " Start searching from the currend working dir
 " Windows behavior
 if has("win32")
   set ffs=dos   " On Windows assume Cr-Lf line endings
+  set directory=$TMP
+else
+  set directory=/tmp 
 endif
 
 " Vim-airline behavior
