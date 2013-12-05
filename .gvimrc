@@ -1,9 +1,8 @@
 " General behvior
-set background=dark              " Use a dark background
-:silent! colorscheme solarized   " A theme with a dark background
-syntax on                        " Enable syntax highlighting
-set noswapfile                   " No automatic file backup
-set lines=30 columns=120         " Initial window size
+set background=dark        " Use a dark background
+:silent! colorscheme solarized      " A theme with a dark background
+syntax on                  " Enable syntax highlighting
+set lines=30 columns=120   " Initial window size
 
 " Use a well readable font
 if has("gui_gtk2")
